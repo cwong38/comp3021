@@ -31,7 +31,9 @@ public class Post {
 	
 	@Override
 	public String toString(){
-		return content;
+		String tostring;
+		tostring = date.toString() + '\n' + content;
+		return tostring;
 	}
 	
 	@Override
